@@ -3,15 +3,15 @@
     <h3 class="widget-title">{{T "widget_recent_posts" }}</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
-            {{- range first 5 (where $.Pages "Section" "posts") }}
+            {{- range first 10 (where $.Pages "Section" "posts") }}
             <li>
                 <div class="item-inner">
-                    <p class="item-title">
+                    <span class="item-title">
                         <a href="{{- .Permalink }}" class="title">{{ .Title }}</a>
-                    </p>
-                    <p class="item-date">
+</span>
+                    <span class="item-date">
                         <time datetime="{{ .Date }}" itemprop="datePublished">{{- .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}</time>
-                    </p>
+                    </span>
                 </div>
             </li>
             {{- end }}
