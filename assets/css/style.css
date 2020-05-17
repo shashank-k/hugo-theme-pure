@@ -26,10 +26,10 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300');
 
 html {
-  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -262,7 +262,7 @@ th {
 }
 
 html {
-  font-size: 10px;
+  font-size: 14px;
   -webkit-tap-highlight-color: transparent;
 }
 
