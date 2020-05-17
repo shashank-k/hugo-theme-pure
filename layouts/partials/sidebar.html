@@ -1,7 +1,8 @@
-<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
   <div class="slimContent">
-    {{ range $w := .Site.Params.widgets }}
-      {{- partial  (printf "_widgets/%s.html" $w) $ }}
-    {{- end }}
+    <h4 class="toc-title">{{T "article_catalogue" }}</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
   </div>
 </aside>
