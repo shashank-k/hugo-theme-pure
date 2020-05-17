@@ -1,9 +1,7 @@
 <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
   <div class="slimContent">
-    <h4 class="toc-title">{{T "article_catalogue" }}</h4>
-    <nav id="toc" class="js-toc toc">
-
-    </nav>
+    {{ range $w := .Site.Params.widgets }}
+      {{- partial  (printf "_widgets/%s.html" $w) $ }}
+    {{- end }}
   </div>
 </aside>
-
