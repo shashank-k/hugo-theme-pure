@@ -26,10 +26,10 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 html {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
